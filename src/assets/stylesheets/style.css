@@ -1,0 +1,33 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/base/_base.scss */
+p {
+  font-size: 17px;
+  color: #3e3b3b;
+}
+
+/* line 3, ../sass/layout/_header.scss */
+header nav ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 10, ../sass/layout/_header.scss */
+header li {
+  padding: 10px;
+}
+/* line 12, ../sass/layout/_header.scss */
+header li a {
+  color: #3e3b3b;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+footer {
+  text-transform: uppercase;
+}
