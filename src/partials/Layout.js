@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import About from "../components/AboutComponent";
 import Home from '../components/HomeComponent';
@@ -7,7 +7,7 @@ class Layout extends Component {
     render() {
         return (
             <div className="Content">
-                <Route path="/" component={Home} />
+                <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
                 <Route path="/users" component={Users} />
             </div>
